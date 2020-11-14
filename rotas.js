@@ -7,4 +7,6 @@ module.exports = app => {
     
     route.accountsRoute(app);
     route.offersRoute(app);
+    route.userRoute(app);
+    
 };
